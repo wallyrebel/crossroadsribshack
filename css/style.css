@@ -66,6 +66,7 @@ address { font-style: normal; }
   pointer-events: none;
 }
 .loader { text-align: center; position: relative; }
+.loader-logo { display: block; margin: 0 auto; filter: drop-shadow(0 4px 12px rgba(212,69,26,0.4)); }
 .smoke-container {
   display: flex;
   justify-content: center;
@@ -119,6 +120,15 @@ address { font-style: normal; }
   align-items: center;
   gap: 12px;
   z-index: 1001;
+}
+.nav-logo-img {
+  height: 56px;
+  width: auto;
+  transition: var(--transition);
+  filter: drop-shadow(0 2px 6px rgba(0,0,0,0.4));
+}
+#navbar.scrolled .nav-logo-img {
+  height: 44px;
 }
 .logo-text { display: flex; flex-direction: column; line-height: 1; }
 .logo-top {
@@ -937,6 +947,11 @@ address { font-style: normal; }
   align-items: center;
   gap: 12px;
   margin-bottom: 16px;
+}
+.footer-logo-img {
+  height: 72px;
+  width: auto;
+  filter: drop-shadow(0 2px 8px rgba(212,69,26,0.3));
 }
 .footer-brand p {
   font-size: 14px;
