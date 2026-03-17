@@ -97,13 +97,6 @@ revealElements.forEach(el => {
   revealObserver.observe(el);
 });
 
-// Duplicate review cards for infinite scroll effect
-const reviewsTrack = document.querySelector('.reviews-track');
-if (reviewsTrack) {
-  const cards = reviewsTrack.innerHTML;
-  reviewsTrack.innerHTML = cards + cards;
-}
-
 // Duplicate marquee content for seamless loop
 const marqueeContent = document.querySelector('.marquee-content');
 if (marqueeContent) {
