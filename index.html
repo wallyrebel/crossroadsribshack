@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crossroads Rib Shack | Authentic BBQ in North Mississippi</title>
+  <meta name="description" content="Crossroads Rib Shack — locally owned barbecue restaurant in Corinth and Ripley, Mississippi. Slow-smoked ribs, brisket, pulled pork, and more. Something for everyone.">
+  <meta name="keywords" content="BBQ, barbecue, ribs, brisket, pulled pork, Corinth MS, Ripley MS, North Mississippi, smoked meats, restaurant">
+  <meta property="og:title" content="Crossroads Rib Shack | Authentic BBQ in North Mississippi">
+  <meta property="og:description" content="Locally owned barbecue restaurant with locations in Corinth and Ripley, MS. Slow-smoked ribs, brisket, pulled pork and more.">
+  <meta property="og:type" content="restaurant">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;500;600;700&family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+</head>
+<body>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="loader">
+      <div class="smoke-container">
+        <div class="smoke s1"></div>
+        <div class="smoke s2"></div>
+        <div class="smoke s3"></div>
+      </div>
+      <svg class="grill-icon" viewBox="0 0 64 64" width="64" height="64">
+        <rect x="8" y="28" width="48" height="6" rx="3" fill="#D4451A"/>
+        <rect x="14" y="34" width="36" height="14" rx="2" fill="#1a1a1a"/>
+        <line x1="20" y1="28" x2="20" y2="20" stroke="#D4451A" stroke-width="2" stroke-linecap="round"/>
+        <line x1="32" y1="28" x2="32" y2="18" stroke="#D4451A" stroke-width="2" stroke-linecap="round"/>
+        <line x1="44" y1="28" x2="44" y2="20" stroke="#D4451A" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <svg class="logo-icon" viewBox="0 0 48 48" width="40" height="40">
+          <circle cx="24" cy="24" r="22" fill="none" stroke="#D4451A" stroke-width="2.5"/>
+          <text x="24" y="20" text-anchor="middle" font-family="Bebas Neue, sans-serif" font-size="9" fill="#D4451A" letter-spacing="1">CROSSROADS</text>
+          <text x="24" y="32" text-anchor="middle" font-family="Bebas Neue, sans-serif" font-size="11" fill="#F5E6D3" font-weight="bold">RIB SHACK</text>
+          <line x1="10" y1="23" x2="38" y2="23" stroke="#D4451A" stroke-width="0.5"/>
+          <line x1="10" y1="35" x2="38" y2="35" stroke="#D4451A" stroke-width="0.5"/>
+        </svg>
+        <div class="logo-text">
+          <span class="logo-top">CROSSROADS</span>
+          <span class="logo-bottom">RIB SHACK</span>
+        </div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#locations">Locations</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#locations" class="nav-cta">Order Now</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#locations">Locations</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#locations" class="nav-cta">Order Now</a></li>
+    </ul>
+  </div>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-smoke"></div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span>EST. IN NORTH MISSISSIPPI</span>
+      </div>
+      <h1>
+        <span class="hero-line-1">SLOW SMOKED.</span>
+        <span class="hero-line-2">BONE SUCKIN'</span>
+        <span class="hero-line-3">GOOD.</span>
+      </h1>
+      <p class="hero-subtitle">Authentic pit-smoked barbecue with two locations serving Corinth &amp; Ripley, Mississippi. Fall-off-the-bone ribs, hand-pulled pork, and scratch-made sides &mdash; something for everyone.</p>
+      <div class="hero-actions">
+        <a href="#menu" class="btn btn-primary">View Our Menu</a>
+        <a href="#locations" class="btn btn-outline">Find a Location</a>
+      </div>
+      <div class="hero-badges">
+        <div class="badge-item">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <span>470+ Reviews</span>
+        </div>
+        <div class="badge-item">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s-8-4.5-8-11.8A8 8 0 0112 2a8 8 0 018 8.2c0 7.3-8 11.8-8 11.8z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span>2 Locations</span>
+        </div>
+        <div class="badge-item">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          <span>Health Score: A</span>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-images">
+          <div class="about-img-wrapper img-1">
+            <div class="about-img-placeholder">
+              <svg viewBox="0 0 200 260" fill="none">
+                <rect width="200" height="260" rx="12" fill="#2a1a0e"/>
+                <g opacity="0.3">
+                  <rect x="20" y="80" width="160" height="8" rx="4" fill="#D4451A"/>
+                  <rect x="20" y="100" width="160" height="8" rx="4" fill="#D4451A"/>
+                  <rect x="20" y="120" width="160" height="8" rx="4" fill="#D4451A"/>
+                  <rect x="20" y="140" width="120" height="8" rx="4" fill="#D4451A"/>
+                </g>
+                <text x="100" y="200" text-anchor="middle" font-family="Bebas Neue, sans-serif" font-size="18" fill="#D4451A" opacity="0.6">SLOW SMOKED</text>
+                <text x="100" y="224" text-anchor="middle" font-family="Bebas Neue, sans-serif" font-size="14" fill="#F5E6D3" opacity="0.4">DAILY</text>
+              </svg>
+            </div>
+          </div>
+          <div class="about-img-wrapper img-2">
+            <div class="about-img-placeholder">
+              <svg viewBox="0 0 200 180" fill="none">
+                <rect width="200" height="180" rx="12" fill="#1a0e08"/>
+                <circle cx="100" cy="90" r="50" fill="#2a1a0e" stroke="#D4451A" stroke-width="1" opacity="0.5"/>
+                <text x="100" y="95" text-anchor="middle" font-family="Bebas Neue, sans-serif" font-size="16" fill="#D4451A" opacity="0.6">PIT MASTER</text>
+              </svg>
+            </div>
+          </div>
+          <div class="about-accent">
+            <span class="accent-number">2</span>
+            <span class="accent-text">Locations in<br>North MS</span>
+          </div>
+        </div>
+        <div class="about-content">
+          <div class="section-label">Our Story</div>
+          <h2>A Local Owned Barbecue Restaurant That Offers Something for Everyone</h2>
+          <div class="about-divider">
+            <svg viewBox="0 0 120 12" width="120" height="12">
+              <line x1="0" y1="6" x2="50" y2="6" stroke="#D4451A" stroke-width="2"/>
+              <circle cx="60" cy="6" r="4" fill="#D4451A"/>
+              <line x1="70" y1="6" x2="120" y2="6" stroke="#D4451A" stroke-width="2"/>
+            </svg>
+          </div>
+          <p>At Crossroads Rib Shack, we believe great barbecue brings people together. Our pitmasters rise before dawn to stoke the fires and begin the slow, patient process of smoking the finest meats to perfection. Every rack of ribs, every brisket, every pulled pork sandwich is crafted with care and seasoned with our signature house dry rub &mdash; what our regulars call &ldquo;the dust.&rdquo;</p>
+          <p>With two locations proudly serving North Mississippi &mdash; our original Corinth restaurant and our newer Ripley spot &mdash; we&rsquo;re on a mission to deliver fall-off-the-bone flavor with genuine Southern hospitality. From our three house-made BBQ sauces to our scratch-made sides, every detail matters.</p>
+          <div class="about-features">
+            <div class="feature">
+              <div class="feature-icon">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="#D4451A" stroke-width="1.5"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+              </div>
+              <div>
+                <strong>Pit-Smoked Daily</strong>
+                <span>Low &amp; slow over real wood for hours</span>
+              </div>
+            </div>
+            <div class="feature">
+              <div class="feature-icon">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="#D4451A" stroke-width="1.5"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+              </div>
+              <div>
+                <strong>Scratch-Made Sides</strong>
+                <span>Coleslaw, beans, okra &amp; more</span>
+              </div>
+            </div>
+            <div class="feature">
+              <div class="feature-icon">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="#D4451A" stroke-width="1.5"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+              </div>
+              <div>
+                <strong>Three House Sauces</strong>
+                <span>Signature sauces on every table</span>
+              </div>
+            </div>
+            <div class="feature">
+              <div class="feature-icon">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="#D4451A" stroke-width="1.5"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+              </div>
+              <div>
+                <strong>Catering Available</strong>
+                <span>Tailgates, events &amp; parties</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Divider Band -->
+  <section class="divider-band">
+    <div class="marquee">
+      <div class="marquee-content">
+        <span>RIBS</span><span class="dot">&bull;</span>
+        <span>BRISKET</span><span class="dot">&bull;</span>
+        <span>PULLED PORK</span><span class="dot">&bull;</span>
+        <span>SMOKED CHICKEN</span><span class="dot">&bull;</span>
+        <span>CATFISH</span><span class="dot">&bull;</span>
+        <span>BURGERS</span><span class="dot">&bull;</span>
+        <span>JUMBO BBQ</span><span class="dot">&bull;</span>
+        <span>SAUSAGE</span><span class="dot">&bull;</span>
+        <span>RIBS</span><span class="dot">&bull;</span>
+        <span>BRISKET</span><span class="dot">&bull;</span>
+        <span>PULLED PORK</span><span class="dot">&bull;</span>
+        <span>SMOKED CHICKEN</span><span class="dot">&bull;</span>
+        <span>CATFISH</span><span class="dot">&bull;</span>
+        <span>BURGERS</span><span class="dot">&bull;</span>
+        <span>JUMBO BBQ</span><span class="dot">&bull;</span>
+        <span>SAUSAGE</span><span class="dot">&bull;</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">The Menu</div>
+        <h2>Smoked to Perfection</h2>
+        <p class="section-desc">Every cut slow-smoked over real wood. Served with garlic Texas toast and your choice of our scratch-made sides.</p>
+      </div>
+
+      <div class="menu-tabs">
+        <button class="menu-tab active" data-tab="plates">Plates &amp; Platters</button>
+        <button class="menu-tab" data-tab="sandwiches">Sandwiches</button>
+        <button class="menu-tab" data-tab="favorites">House Favorites</button>
+        <button class="menu-tab" data-tab="sides">Sides &amp; More</button>
+      </div>
+
+      <div class="menu-content">
+        <!-- Plates -->
+        <div class="menu-panel active" id="plates">
+          <div class="menu-grid">
+            <div class="menu-item featured">
+              <div class="menu-item-badge">Fan Favorite</div>
+              <div class="menu-item-header">
+                <h3>Rib Plate</h3>
+                <div class="menu-dots"></div>
+              </div>
+              <p>Fall-off-the-bone smoked ribs with our signature dry rub &ldquo;dust.&rdquo; Served with two sides &amp; garlic Texas toast.</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h3>Ribs for Two</h3>
+                <div class="menu-dots"></div>
+              </div>
+              <p>A generous rack to share. Each person picks two sides. Served with garlic Texas toast.</p>
+            </div>
+            <div class="menu-item featured">
+              <div class="menu-item-badge">Pit Master Pick</div>
+              <div class="menu-item-header">
+                <h3>Brisket Plate</h3>
+                <div class="menu-dots"></div>
+              </div>
+              <p>Slow-smoked beef brisket, sliced thick and tender. Served with two sides &amp; garlic Texas toast.</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h3>Smoked Half Chicken</h3>
+                <div class="menu-dots"></div>
+              </div>
+              <p>Half chicken smoked low and slow until juicy and flavorful. Two sides &amp; garlic Texas toast.</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h3>Combo Plate</h3>
+                <div class="menu-dots"></div>
+              </div>
+              <p>Pick two meats: ribs, brisket, pulled pork, or smoked chicken. Served with two sides &amp; garlic Texas toast.</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h3>Sausage Cheese Plate</h3>
+                <div class="menu-dots"></div>
+              </div>
+              <p>Smoked sausage topped with cheese, pickles &amp; pepperoncini, drizzled with BBQ sauce and our signature rub.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sandwiches -->
+        <div class="menu-panel" id="sandwiches">
+          <div class="menu-grid">
+            <div class="menu-item featured">
+              <div class="menu-item-badge">Most Popular</div>
+              <div class="menu-item-header">
+                <h3>Pulled Pork Sandwich</h3>
+                <div class="menu-dots"></div>
+              </div>
+              <p>Hand-pulled smoked pork piled high on a toasted bun. Our #1 seller with 16+ five-star reviews.</p>
+            </div>
+            <div class="menu-item featured">
+              <div class="menu-item-badge">House Special</div>
+              <div class="menu-item-header">
+                <h3>Jumbo BBQ Sandwich</h3>
+                <div class="menu-dots"></div>
+              </div>
+              <p>Our oversized signature BBQ sandwich &mdash; stacked high with smoked meat and all the fixins.</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h3>Smoked Chicken Sandwich</h3>
+                <div class="menu-dots"></div>
+              </div>
+              <p>Tender smoked chicken on a toasted bun with your choice of toppings.</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h3>Brisket Sandwich</h3>
+                <div class="menu-dots"></div>
+              </div>
+              <p>Sliced smoked brisket piled on a toasted bun with pickles and onion.</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h3>Hamburger</h3>
+                <div class="menu-dots"></div>
+              </div>
+              <p>Thick, juicy hand-pattied burger grilled to order. A road trip favorite.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- House Favorites -->
+        <div class="menu-panel" id="favorites">
+          <div class="menu-grid">
+            <div class="menu-item featured">
+              <div class="menu-item-badge">Southern Classic</div>
+              <div class="menu-item-header">
+                <h3>Fried Catfish</h3>
+                <div class="menu-dots"></div>
+              </div>
+              <p>Crispy, well-seasoned catfish fillets. Some of the best catfish around &mdash; a local legend.</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h3>Fried Chicken Strips</h3>
+                <div class="menu-dots"></div>
+              </div>
+              <p>Juicy, lightly breaded chicken strips fried golden. Served with ranch dipping sauce.</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h3>Loaded Baked Potato</h3>
+                <div class="menu-dots"></div>
+              </div>
+              <p>Giant baked potato loaded with your choice of smoked meat, cheese, and all the toppings.</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h3>Wings</h3>
+                <div class="menu-dots"></div>
+              </div>
+              <p>Smoked then finished crispy. Tossed in your choice of sauce.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sides -->
+        <div class="menu-panel" id="sides">
+          <div class="menu-grid sides-grid">
+            <div class="menu-item side-item">
+              <h3>Baked Beans</h3>
+              <p>BBQ pork-flavored, fresh and hot</p>
+            </div>
+            <div class="menu-item side-item">
+              <h3>Coleslaw</h3>
+              <p>Super fresh, lightly creamy</p>
+            </div>
+            <div class="menu-item side-item">
+              <h3>Fried Okra</h3>
+              <p>Breaded and fried crispy</p>
+            </div>
+            <div class="menu-item side-item">
+              <h3>French Fries</h3>
+              <p>Try them with the &ldquo;dust&rdquo;</p>
+            </div>
+            <div class="menu-item side-item">
+              <h3>Steak Fries</h3>
+              <p>Thick-cut and seasoned</p>
+            </div>
+            <div class="menu-item side-item">
+              <h3>Onion Rings</h3>
+              <p>Beer-battered, golden fried</p>
+            </div>
+            <div class="menu-item side-item">
+              <h3>Garlic Texas Toast</h3>
+              <p>Buttery and garlicky</p>
+            </div>
+            <div class="menu-item side-item">
+              <h3>Sweet Tea</h3>
+              <p>Mississippi perfection, free refills</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-sauces">
+        <div class="sauce-header">
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="#D4451A" stroke-width="2"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+          <h3>Three House-Made BBQ Sauces on Every Table</h3>
+        </div>
+        <p>Plus our famous dry rub &ldquo;dust&rdquo; &mdash; ask for it on your fries!</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Locations Section -->
+  <section id="locations">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">Find Us</div>
+        <h2>Two Locations, One Mission</h2>
+        <p class="section-desc">Great barbecue served with genuine Southern hospitality.</p>
+      </div>
+
+      <div class="locations-grid">
+        <!-- Corinth Location -->
+        <div class="location-card">
+          <div class="location-header">
+            <div class="location-badge">Original</div>
+            <h3>Corinth, MS</h3>
+            <div class="location-rating">
+              <div class="stars">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="#D4451A"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="#D4451A"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="#D4451A"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="#D4451A"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="#D4451A" opacity="0.5"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              </div>
+              <span>470+ Reviews &bull; 90% Recommend</span>
+            </div>
+          </div>
+          <div class="location-body">
+            <div class="location-info">
+              <div class="info-row">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s-8-4.5-8-11.8A8 8 0 0112 2a8 8 0 018 8.2c0 7.3-8 11.8-8 11.8z"/><circle cx="12" cy="10" r="3"/></svg>
+                <div>
+                  <strong>201 Highway 72 East</strong>
+                  <span>Corinth, MS 38834</span>
+                </div>
+              </div>
+              <div class="info-row">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+                <a href="tel:6622844646">(662) 284-4646</a>
+              </div>
+            </div>
+            <div class="location-hours">
+              <h4>Hours</h4>
+              <div class="hours-grid">
+                <div class="hours-row"><span>Monday</span><span>11:00 AM &ndash; 9:00 PM</span></div>
+                <div class="hours-row"><span>Tuesday</span><span>11:00 AM &ndash; 9:00 PM</span></div>
+                <div class="hours-row"><span>Wednesday</span><span>11:00 AM &ndash; 9:00 PM</span></div>
+                <div class="hours-row"><span>Thursday</span><span>11:00 AM &ndash; 9:00 PM</span></div>
+                <div class="hours-row"><span>Friday</span><span>11:00 AM &ndash; 9:30 PM</span></div>
+                <div class="hours-row"><span>Saturday</span><span>11:00 AM &ndash; 9:30 PM</span></div>
+                <div class="hours-row"><span>Sunday</span><span>11:00 AM &ndash; 3:00 PM</span></div>
+              </div>
+            </div>
+            <div class="location-features">
+              <span class="loc-feature">Dine-In</span>
+              <span class="loc-feature">Take-Out</span>
+              <span class="loc-feature">Drive-Thru</span>
+              <span class="loc-feature">Delivery</span>
+              <span class="loc-feature">Reservations</span>
+              <span class="loc-feature">Catering</span>
+            </div>
+            <div class="location-actions">
+              <a href="https://maps.google.com/?q=201+Highway+72+E+Corinth+MS+38834" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Get Directions</a>
+              <a href="tel:6622844646" class="btn btn-outline btn-sm">Call Now</a>
+              <a href="https://www.facebook.com/RibshackCorinth/" target="_blank" rel="noopener" class="btn btn-outline btn-sm">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                Facebook
+              </a>
+            </div>
+          </div>
+          <div class="location-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3267.5!2d-88.52!3d34.93!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x887d53e6e6e6e6e7%3A0x0!2s201+Highway+72+E%2C+Corinth%2C+MS+38834!5e0!3m2!1sen!2sus!4v1" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Crossroads Rib Shack Corinth Map"></iframe>
+          </div>
+        </div>
+
+        <!-- Ripley Location -->
+        <div class="location-card">
+          <div class="location-header">
+            <div class="location-badge new">Newest</div>
+            <h3>Ripley, MS</h3>
+            <div class="location-rating">
+              <div class="stars">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="#D4451A"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="#D4451A"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="#D4451A"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="#D4451A"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="#D4451A"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              </div>
+              <span>100% Recommend</span>
+            </div>
+          </div>
+          <div class="location-body">
+            <div class="location-info">
+              <div class="info-row">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s-8-4.5-8-11.8A8 8 0 0112 2a8 8 0 018 8.2c0 7.3-8 11.8-8 11.8z"/><circle cx="12" cy="10" r="3"/></svg>
+                <div>
+                  <strong>716 City Ave North</strong>
+                  <span>Ripley, MS 38663</span>
+                </div>
+              </div>
+              <div class="info-row">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+                <a href="tel:6625761289">(662) 576-1289</a>
+              </div>
+            </div>
+            <div class="location-hours">
+              <h4>Hours</h4>
+              <div class="hours-grid">
+                <div class="hours-row"><span>Monday</span><span>11:00 AM &ndash; 9:00 PM</span></div>
+                <div class="hours-row"><span>Tuesday</span><span>11:00 AM &ndash; 9:00 PM</span></div>
+                <div class="hours-row"><span>Wednesday</span><span>11:00 AM &ndash; 9:00 PM</span></div>
+                <div class="hours-row"><span>Thursday</span><span>11:00 AM &ndash; 9:00 PM</span></div>
+                <div class="hours-row"><span>Friday</span><span>11:00 AM &ndash; 9:30 PM</span></div>
+                <div class="hours-row"><span>Saturday</span><span>11:00 AM &ndash; 9:30 PM</span></div>
+                <div class="hours-row"><span>Sunday</span><span>11:00 AM &ndash; 3:00 PM</span></div>
+              </div>
+            </div>
+            <div class="location-features">
+              <span class="loc-feature">Dine-In</span>
+              <span class="loc-feature">Take-Out</span>
+              <span class="loc-feature">Catering</span>
+            </div>
+            <div class="location-actions">
+              <a href="https://maps.google.com/?q=716+City+Ave+N+Ripley+MS+38663" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Get Directions</a>
+              <a href="tel:6625761289" class="btn btn-outline btn-sm">Call Now</a>
+              <a href="https://www.facebook.com/profile.php?id=61572309568258" target="_blank" rel="noopener" class="btn btn-outline btn-sm">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                Facebook
+              </a>
+            </div>
+          </div>
+          <div class="location-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3267.5!2d-88.95!3d34.73!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2s716+City+Ave+N%2C+Ripley%2C+MS+38663!5e0!3m2!1sen!2sus!4v1" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Crossroads Rib Shack Ripley Map"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews Section -->
+  <section id="reviews">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">What People Say</div>
+        <h2>Rave Reviews</h2>
+        <p class="section-desc">Don&rsquo;t just take our word for it &mdash; hear from our happy customers.</p>
+      </div>
+
+      <div class="reviews-carousel">
+        <div class="reviews-track">
+          <div class="review-card">
+            <div class="review-stars">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="#D4451A"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="#D4451A"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="#D4451A"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="#D4451A"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="#D4451A"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            </div>
+            <p>&ldquo;Hands down the friendliest rib joint I&rsquo;ve ever walked into. One visit hooked me; I came back every single day for a week.&rdquo;</p>
+            <div class="review-author">
+              <strong>Sam C.</strong>
+              <span>Ripley Location</span>
+            </div>
+          </div>
+          <div class="review-card">
+            <div class="review-stars">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="#D4451A"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="#D4451A"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="#D4451A"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="#D4451A"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="#D4451A"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            </div>
+            <p>&ldquo;The ribs were fall-off-the-bone delicious! I love dry rubbed ribs and these were soooo good! Three sauces available on the table. Great BBQ and very casual atmosphere.&rdquo;</p>
+            <div class="review-author">
+              <strong>Kathy S.</strong>
+              <span>Corinth Location &bull; Yelp</span>
+            </div>
+          </div>
+          <div class="review-card">
+            <div class="review-stars">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="#D4451A"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="#D4451A"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="#D4451A"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="#D4451A"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="#D4451A"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            </div>
+            <p>&ldquo;Crossroads Ribshack-Ripley prepared the food for our Ole Miss-Arkansas tailgate. Folks could not quit raving about it.&rdquo;</p>
+            <div class="review-author">
+              <strong>Philip H.</strong>
+              <span>Ripley Location &bull; Facebook</span>
+            </div>
+          </div>
+          <div class="review-card">
+            <div class="review-stars">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="#D4451A"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="#D4451A"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="#D4451A"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="#D4451A"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="#D4451A"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            </div>
+            <p>&ldquo;Dang, this place is really good. I&rsquo;ve eaten here twice in three days and have no complaints at all! The ribs are a must have!&rdquo;</p>
+            <div class="review-author">
+              <strong>Robert M.</strong>
+              <span>Corinth Location &bull; Yelp</span>
+            </div>
+          </div>
+          <div class="review-card">
+            <div class="review-stars">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="#D4451A"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="#D4451A"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="#D4451A"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="#D4451A"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="#D4451A"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            </div>
+            <p>&ldquo;Great, crispy, and well seasoned catfish. Some of the best catfish around for sure.&rdquo;</p>
+            <div class="review-author">
+              <strong>Cole H.</strong>
+              <span>Corinth Location &bull; Yelp</span>
+            </div>
+          </div>
+          <div class="review-card">
+            <div class="review-stars">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="#D4451A"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="#D4451A"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="#D4451A"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="#D4451A"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="#D4451A"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            </div>
+            <p>&ldquo;Great food and prices are reasonable. Friendly staff and welcoming. A variety of food options on the menu.&rdquo;</p>
+            <div class="review-author">
+              <strong>Onita H.</strong>
+              <span>Corinth Location &bull; Yelp</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section id="cta">
+    <div class="cta-overlay"></div>
+    <div class="container">
+      <div class="cta-content">
+        <h2>Ready for Real BBQ?</h2>
+        <p>Come hungry, leave happy. Dine in, carry out, or let us cater your next event.</p>
+        <div class="cta-actions">
+          <a href="tel:6622844646" class="btn btn-primary btn-lg">Call Corinth: (662) 284-4646</a>
+          <a href="tel:6625761289" class="btn btn-outline btn-lg">Call Ripley: (662) 576-1289</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <svg class="logo-icon" viewBox="0 0 48 48" width="48" height="48">
+              <circle cx="24" cy="24" r="22" fill="none" stroke="#D4451A" stroke-width="2"/>
+              <text x="24" y="20" text-anchor="middle" font-family="Bebas Neue, sans-serif" font-size="8" fill="#D4451A" letter-spacing="1">CROSSROADS</text>
+              <text x="24" y="32" text-anchor="middle" font-family="Bebas Neue, sans-serif" font-size="10" fill="#F5E6D3" font-weight="bold">RIB SHACK</text>
+              <line x1="10" y1="23" x2="38" y2="23" stroke="#D4451A" stroke-width="0.5"/>
+              <line x1="10" y1="35" x2="38" y2="35" stroke="#D4451A" stroke-width="0.5"/>
+            </svg>
+            <div class="logo-text">
+              <span class="logo-top">CROSSROADS</span>
+              <span class="logo-bottom">RIB SHACK</span>
+            </div>
+          </div>
+          <p>Locally owned barbecue restaurant serving North Mississippi with slow-smoked, fall-off-the-bone flavor.</p>
+          <div class="footer-social">
+            <a href="https://www.facebook.com/RibshackCorinth/" target="_blank" rel="noopener" aria-label="Facebook - Corinth">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61572309568258" target="_blank" rel="noopener" aria-label="Facebook - Ripley">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Corinth</h4>
+          <address>
+            201 Highway 72 East<br>
+            Corinth, MS 38834<br>
+            <a href="tel:6622844646">(662) 284-4646</a>
+          </address>
+          <p class="footer-hours">Mon&ndash;Thu: 11AM&ndash;9PM<br>Fri&ndash;Sat: 11AM&ndash;9:30PM<br>Sun: 11AM&ndash;3PM</p>
+        </div>
+        <div class="footer-col">
+          <h4>Ripley</h4>
+          <address>
+            716 City Ave North<br>
+            Ripley, MS 38663<br>
+            <a href="tel:6625761289">(662) 576-1289</a>
+          </address>
+          <p class="footer-hours">Mon&ndash;Thu: 11AM&ndash;9PM<br>Fri&ndash;Sat: 11AM&ndash;9:30PM<br>Sun: 11AM&ndash;3PM</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#locations">Locations</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Crossroads Rib Shack. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
