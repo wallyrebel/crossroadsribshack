@@ -127,7 +127,7 @@ window.addEventListener('scroll', () => {
   navLinks.forEach(link => {
     link.style.color = '';
     if (link.getAttribute('href') === `#${current}`) {
-      link.style.color = '#D4451A';
+      link.style.color = '#8B1A1A';
     }
   });
 });
@@ -165,7 +165,7 @@ function updateOpenStatus() {
       row.style.marginRight = '-8px';
       const statusBadge = document.createElement('span');
       statusBadge.textContent = isOpen ? ' (Open Now)' : ' (Closed)';
-      statusBadge.style.color = isOpen ? '#4CAF50' : '#D4451A';
+      statusBadge.style.color = isOpen ? '#4CAF50' : '#8B1A1A';
       statusBadge.style.fontSize = '12px';
       statusBadge.style.fontWeight = '600';
       // Only add once
